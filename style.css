@@ -1,0 +1,154 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #009688;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    background-color: #e0f2f1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    color: #00796b;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #004d40;
+}
+
+/* Health tips section */
+#tips {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+#tips h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+.tip-card {
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tip-card h3 {
+    color: #004d40;
+    margin-bottom: 10px;
+}
+
+.tip-card p {
+    color: #555;
+}
+
+/* Contact form section */
+#contact {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00796b;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact label {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+    color: #00796b;
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #00796b;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+#contact button {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    background-color: #004d40;
+}
+
+/* Footer styling */
+footer {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1em;
+}
